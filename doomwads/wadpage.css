@@ -1,0 +1,58 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+@font-face {
+    font-family: Doom;
+    src: url(..\DooM.ttf);
+}
+#title {
+    text-align: center;
+    font-size: 250%;
+    color: red;
+    font-family: Doom;
+}
+p {
+    color:white;
+}
+#desc {
+    color: orange;
+    text-align: center;
+    width: 500px;
+}
+h2 {
+    font-size: 175%;
+    color: lime;
+}
+a:link {
+    color: orange;
+}
+a:visited{
+    color: red;
+}
+a:hover {
+    color: purple;
+}
+img {
+    border: 3px ridge gold;
+    margin-left: 5px;
+}
+#waddesc {
+    width: 400px;
+}
+h6 {
+    margin-top: 10px;
+}
+#back {
+    margin-left: 20px;
+    position: fixed;
+}
+#details {
+    border: 1px solid white;
+    display:inline-block;
+}
+#waddetails {
+    text-align: left;
+    margin-left: 40%;
+}
