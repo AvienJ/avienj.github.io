@@ -1,31 +1,36 @@
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color: black;
+    font-family: "Berlin Sans FB Regular";
+    color: black;
+    background-color: #f7f7f7;
 }
 #title {
     text-align: center;
-    color: lime;
-    font-size: 250%;
+    font-size: 350%;
 }
 p {
-    color:white;
+    color:black;
+    font-size: 115%;
 }
 #desc {
-    color: orange;
+    color: black;
     text-align: center;
     width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h2 {
     font-size: 175%;
-    color: lime;
+    color: black;
 }
 a:link {
-    color: orange;
+    color: blue;
 }
 a:visited{
-    color: red;
+    color: purple;
 }
 a:hover {
-    color: purple;
+    color: cornflowerblue;
+}
+#contents {
+    width: 75%;
+    margin: 0 auto;
 }
