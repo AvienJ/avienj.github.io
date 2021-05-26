@@ -33,4 +33,5 @@ button {
     opacity: 0;
     transition: all 1.5s;
     cursor: pointer;
+    text-align: center;
 }
