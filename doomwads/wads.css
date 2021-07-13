@@ -1,16 +1,16 @@
 @font-face {
     font-family: Average;
-    src: url("Average-Regular.ttf");
+    src: url("../Average-Regular.ttf");
 }
 
 @font-face {
     font-family: DMSerif;
-    src: url("DMSerifDisplay-Regular.ttf");
+    src: url("../DMSerifDisplay-Regular.ttf");
 }
 
 @font-face {
     font-family: Poppins;
-    src: url("Poppins-Regular.ttf");
+    src: url("../Poppins-Regular.ttf");
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     text-align: center;
     font-size: 380%;
     width: 100%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
     font-family: DMSerif;
 }
 p {
@@ -55,6 +55,9 @@ a:link, a:visited {
 }
 a:hover {
     color: cornflowerblue;
+    font-size: 145%;
+}
+#back:hover {
     font-size: 110%;
 }
 #contents {
@@ -92,4 +95,9 @@ ul li{
     list-style-type: none;
     text-align: center;
     font-size: 125%;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
 }
